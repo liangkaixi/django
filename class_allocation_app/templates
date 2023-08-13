@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Allocation Form</title>
+</head>
+<body>
+    <h1>Class Allocation</h1>
+    <form action="{% url 'class_allocation' %}" method="get">
+        <label for="need_class">Enter the number of classes:</label>
+        <input type="number" id="need_class" name="need_class" required>
+        <button type="submit">Allocate Classes</button>
+    </form>
+</body>
+</html>
